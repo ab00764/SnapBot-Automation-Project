@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SnatchBot-Test-suite" preserve-order="true">
+    <listeners>
+        <listener class-name="ExtentReport.ExtentReportListner"/>
+    </listeners>
+    
+    <test verbose="2" preserve-order="true" name="ExplainChatbotsIntent" enabled="true">
+        <groups>
+            <run>
+                <include name="Explain-chatbots-Intent"/>
+                <include name="Getting Chatbot Cost Intent"/>
+                <include name="Contact-SnatchBot-Support-intent"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="TestBase.SnatchBotTests"/>
+        </classes>
+    </test>
+</suite>

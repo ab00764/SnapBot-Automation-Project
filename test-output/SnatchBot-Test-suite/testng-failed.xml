@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SnatchBot-Test-suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="ExtentReport.ExtentReportListner"/>
+  </listeners>
+  <test thread-count="5" name="ExplainChatbotsIntent(failed)">
+    <groups>
+      <run>
+        <include name="Explain-chatbots-Intent"/>
+        <include name="Getting Chatbot Cost Intent"/>
+        <include name="Contact-SnatchBot-Support-intent"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="TestBase.SnatchBotTests">
+        <methods>
+          <include name="gettingCostIntent"/>
+          <include name="waitingtoLoadChatBotIntents"/>
+          <include name="TearDown"/>
+          <include name="contactSnatchBotSupport"/>
+          <include name="explainChatBotIntent"/>
+        </methods>
+      </class> <!-- TestBase.SnatchBotTests -->
+    </classes>
+  </test> <!-- ExplainChatbotsIntent(failed) -->
+</suite> <!-- Failed suite [SnatchBot-Test-suite] -->

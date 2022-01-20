@@ -1,0 +1,5 @@
+2022-01-18 15:53:10 INFO  SnatchBotTests:35 - Going to open chrome in incognito mode
+2022-01-18 15:53:21 INFO  SnatchBotTests:39 - ===Initializing Webdriver===
+2022-01-18 15:53:21 INFO  SnatchBotTests:49 - ===Webdriver Started Successfully===
+2022-01-18 15:53:21 INFO  SnatchBotTests:51 - ===Opening Website===https://snatchbot.me/
+2022-01-18 15:53:28 INFO  SnatchBotTests:53 - Snatch Bot home page has been loaded successfully
